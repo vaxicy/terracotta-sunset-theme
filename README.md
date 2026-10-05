@@ -57,13 +57,23 @@ The store listing is in preparation. Until it is live, load the unpacked copy wi
 
 ## Preview
 
+### Store screenshots · 1280×800
+
+**Browser interface** — the themed window with a bookmarks bar and the new tab page.
+
 ![Terracotta Sunset Theme browser preview](https://raw.githubusercontent.com/vaxicy/terracotta-sunset-theme/main/store-assets/screenshots/en/screenshot-1-browser.png)
+
+**Palette & highlights** — the four tones the theme is built from and what each one controls.
 
 ![Terracotta Sunset Theme palette](https://raw.githubusercontent.com/vaxicy/terracotta-sunset-theme/main/store-assets/screenshots/en/screenshot-2-introduction.png)
 
 ### Store promo tiles
 
+**Marquee tile · 1400×560** — “Warm tones. A calmer everyday browser.”
+
 ![Terracotta Sunset Theme marquee](https://raw.githubusercontent.com/vaxicy/terracotta-sunset-theme/main/store-assets/promo/1400x560.png)
+
+**Small tile · 440×280** — “A little sunset, every day.”
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/vaxicy/terracotta-sunset-theme/main/store-assets/promo/440x280.png" width="440" alt="Terracotta Sunset Theme promo tile">
@@ -102,7 +112,9 @@ One composer renders all four store assets — both screenshots, both promo tile
 powershell -ExecutionPolicy Bypass -File scripts/package.ps1 -Force
 ```
 
-Writes a complete ZIP named `terracotta-sunset-theme-<version>.zip` to the default folder `D:\迅雷下载\vibe coding`, with `manifest.json` at the archive root. `-Force` overwrites any existing archive. Promo tiles and screenshots travel inside the ZIP but are uploaded separately in the Chrome Web Store listing form.
+Writes a complete ZIP named `terracotta-sunset-theme-<version>.zip` to the default folder `D:\迅雷下载\vibe coding`, with `manifest.json` at the archive root. `-Force` overwrites any existing archive.
+
+The screenshots and promo tiles travel inside the ZIP, but the store form still needs them uploaded one by one: `store-assets/screenshots/en/` fills the two screenshot slots, `store-assets/promo/1400x560.png` is the marquee tile and `store-assets/promo/440x280.png` is the small tile.
 
 ## License
 
