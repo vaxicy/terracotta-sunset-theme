@@ -1,0 +1,1 @@
+完整版 ZIP 默认保存到 D:\迅雷下载\vibe coding\terracotta-sunset-theme-1.0.0.zip。manifest.json 位于 ZIP 根目录。store-assets 为商店上传图片，scripts 为素材生成与打包工具。

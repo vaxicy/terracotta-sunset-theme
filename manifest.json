@@ -1,0 +1,96 @@
+{
+  "manifest_version": 3,
+  "name": "Terracotta Sunset Theme",
+  "version": "1.0.0",
+  "description": "A warm Chrome theme in terracotta red, soft apricot, and sunset coral.",
+  "icons": {
+    "128": "logo/logo128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [
+        161,
+        70,
+        70
+      ],
+      "frame_inactive": [
+        161,
+        70,
+        70
+      ],
+      "toolbar": [
+        251,
+        230,
+        213
+      ],
+      "tab_text": [
+        84,
+        47,
+        43
+      ],
+      "tab_background_text": [
+        255,
+        245,
+        236
+      ],
+      "tab_background_text_inactive": [
+        255,
+        245,
+        236
+      ],
+      "bookmark_text": [
+        84,
+        47,
+        43
+      ],
+      "toolbar_text": [
+        84,
+        47,
+        43
+      ],
+      "toolbar_button_icon": [
+        84,
+        47,
+        43
+      ],
+      "omnibox_background": [
+        255,
+        250,
+        246
+      ],
+      "omnibox_text": [
+        84,
+        47,
+        43
+      ],
+      "ntp_background": [
+        255,
+        245,
+        236
+      ],
+      "ntp_text": [
+        84,
+        47,
+        43
+      ],
+      "ntp_link": [
+        218,
+        101,
+        86
+      ],
+      "ntp_header": [
+        218,
+        101,
+        86
+      ],
+      "button_background": [
+        161,
+        70,
+        70
+      ]
+    },
+    "properties": {
+      "ntp_logo_alternate": 1
+    }
+  }
+}
